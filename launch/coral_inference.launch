@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="ros_coraledge_inference" type="pose_estimation" name="pose_estimation" output="screen">
+        <param name="Input_image_topic" value="/zed/zed_node/left/image_rect_color"/>
+        <param name="Output_image_topic" value="/pose_estimate"/>
+        <param name="model_path" value="$(find ros_coraledge_inference)/test_data/pose_estimation/posenet_mobilenet_v1_075_353_481_quant_decoder_edgetpu.tflite"/>
+        <param name="pose_threshold" value="0.2"/>
+        <param name="keypoint_threshold" value="0.2"/>
+        <param name="image_height" value="720"/>
+        <param name="image_width" value="1280"/>
+        <param name="with_edgetpu" value="True"/>
+    </node>
+</launch>
