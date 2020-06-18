@@ -40,3 +40,6 @@ You can find the following parameters in the coral_pose_inference.launch file:
 ```bash
 $ roslaunch ros_coraledge_inference coral_pose_inference.launch
 ```
+
+## Nodes:
+pose_estimation
