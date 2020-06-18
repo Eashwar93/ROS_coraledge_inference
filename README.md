@@ -16,5 +16,12 @@ $ sudo apt search libgtk2.0-dev
 ## Build:
 ```bash
 $ cd catkin_ws/src
-$ git clone 
+$ git clone https://github.com/Eashwar93/ROS_coraledge_inference.git
+$ cd ..
+$ catkin_make
 ```
+## Params:
+```bash
+$ cd src/ROS_coraledge_inference/launch
+```
+You can find the following parameters
