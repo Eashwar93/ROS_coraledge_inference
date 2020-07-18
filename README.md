@@ -1,6 +1,6 @@
 # ROS_coraledge_inference
 
-## This package is being debugged at the moment. Will be release before end of september as I have limited time these days :(
+## This package is being debugged at the moment. Will be released before end of september as I have limited time these days :(
 
 ## Prerequisites:
 1. A linux Machine x86_64 with ROS installed
